@@ -1,9 +1,14 @@
 {
-  "name": "generator-task",
+  "name": "firstcli",
   "version": "1.0.0",
+  "bin": "cli.js",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "ejs": "^3.1.6",
+    "inquirer": "^8.1.1",
     "yeoman-generator": "^5.4.0"
-  }
+  },
+  "repository": "https://github.com/wanghexin19951022/lagou-e-task-02-01.git",
+  "author": "wanghexin <wanghexin@lingtu.com>"
 }
